@@ -1,0 +1,503 @@
+
+/**home  page**/
+
+body {
+    background-image: url('C:/Users/Smart/Desktop/projectes/project for html css/imges/home_bg.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white; /* لون النص */
+    font-family: Arial, sans-serif; /* نوع الخط */
+    text-align: center; /* محاذاة النص في المنتصف */
+    padding-top: 20%; /* لإبعاد النص عن أعلى الصفحة */
+    margin: 0; /* إزالة الهوامش الافتراضية */
+    height: 95vh; 
+}
+
+.content {
+    background-color: rgba(0, 0, 0, 0.2)  ; /* لون خلفية شفاف للنص */
+    background-size: cover;
+    background-position: center;
+    width: 97%;
+    height: 139.22%;
+    position: relative;
+    bottom: 45%;
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.parg1{
+
+    position: relative;
+    top: 20%;
+
+}
+
+.span{
+    color: antiquewhite;
+}
+
+.link1{
+    text-decoration: none;
+    background-color: chocolate;
+    border-radius: 30px;
+    width: 100px;
+    height: 50px;
+    display: inline-block;
+    position: relative;
+    top: 30%;
+    color: #fff;
+
+}
+
+.link1:hover{
+    background-color: rgb(79, 21, 21);
+    
+}
+
+.span2{
+
+    position: relative;
+    top: 25%;
+}
+
+.nav{
+
+    text-decoration: none;
+    margin: 15px;
+    position: relative;
+    left: 35%;
+
+}
+
+.logo{
+    position: relative;
+    right: 350px;
+    width: 50px;
+    height: 60px;
+    border-radius: 15px;
+}
+
+/*****************/
+
+
+/*about start */
+
+
+.btn{
+    text-decoration: none;
+    
+    border-radius: 15px;
+    width: 25px;
+    height: 30px;
+}
+
+h2{
+    color: black;
+}
+
+p{
+    color: black;
+}
+
+.prag2{
+    color: black;
+}
+
+.container{
+
+    position: relative;
+    max-width: 1100px;
+    margin: auto;
+
+}
+
+#about{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    bottom: 245px;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f4f4f4;
+}
+
+#about .title{
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+#about h2{
+    font-size: 40px;
+    color: #383838;
+    margin-bottom: 20px;
+}
+
+
+#about .title p{
+    font-size: 14px;
+    color: #9a9a9a;
+    font-weight: 600;
+}
+
+
+
+#about .about-content{
+    display: flex;
+    justify-content:space-between ;
+}
+
+#about .about-content img {
+    width: 450px;
+
+}
+
+#about .about-content p {
+    color: #9a9a9a;
+    margin-right: 7rem;
+    font-weight: 500;
+    line-height: 1.6;
+
+}
+
+
+
+#button{
+   
+    position: relative;
+    top:  10px;
+    padding: 15px;
+    text-decoration: none;
+    color: #fff;
+    background: #383848;
+    margin: 25px;
+    box-sizing: border-box;
+    border-radius: 150px;
+    
+}
+
+.imgfoodlover{
+    position: relative;
+    bottom:50px;
+}
+
+/**section offers*/
+
+#offers{
+    display: flex;
+    justify-content: center;
+    background: url("./imges/offer-background\ \(1\).jpg") center  center/cover  fixed;
+    position: relative;
+    bottom: 230px;
+}
+
+#offers h2{
+    font-size: 40px;
+    color: #f3d74d;
+    margin-bottom: 20px;
+}
+#offers .title p{
+    color: #fff;
+    font-weight: 500;
+}
+
+#offers .offers-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+#offers .offers-items img
+{
+    width: 200px;
+}
+
+#offers .offers-items h3{
+    font-size: 25px;
+    margin: 15px 0;
+}
+
+#offers .offers-items p{
+    font-size: 14px;
+    color: #fff;
+    padding: 0 20px;
+    font-weight: 300;
+    margin-bottom: 15px;
+
+}
+
+#offers .offers-items span{
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 5px;
+    color: #f3d74d;
+
+}
+/**end about **/
+
+/******************************/
+
+/*##menu start##*/
+
+#menu{
+    background-color: #f4f4f4;
+    padding: 5rem 0;
+}
+
+#menu .container{
+    padding-top: 15px;
+
+}
+
+#menu .title {
+    text-align: center;
+    margin-bottom: 4rem;
+    font-weight: 700;
+}
+
+#menu .title h2{
+    font-size: 40px;
+    color: #383838;
+
+   
+}
+#menu .title p{
+
+ font-size: 18px;
+    font-weight: 300;
+    margin-left: 5px;
+    color: #647687;
+}
+
+#menu .menu-items h3{
+    color: #383838;
+}
+#menu .menu-items h3 span{
+    color: #a6d085;
+}
+
+#menu .menu-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+    
+}
+
+#menu .menu-items .menu-item {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin: 40px;
+}
+
+
+#menu .menu-items .menu-item img{
+    width: 80px;
+    border-radius: 50%;
+}
+
+#menu .menu-items .menu-item h3{
+    color: #383838;
+    border-bottom: 1px dashed #c2bdbd;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+#menu .menu-items .menu-item span{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+#menu .menu-items .menu-item p{
+    margin-top: 10px;
+}
+
+#menu .btn{
+    display: block;
+    margin:  20px auto 0; 
+    background: #e3cd5e;
+    color: #fff;
+    cursor: pointer;
+    width: 150px;
+    height: 50px;
+}
+#menu .btn:hover{
+    background-color: #383848;
+
+}
+/**menu end**/
+
+/**daytime start**/
+
+
+
+#daytime {
+    background: url("./imges/daytime_bg.jpeg") center center/cover  fixed  no-repeat;
+    color: #fff;
+    text-align: center;
+
+}
+
+
+#daytime .daytime-items{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height:40vh ;
+
+}
+
+#daytime .daytime-items h3{
+    font-size: 32px;
+    margin: 20px 0 10px ;
+}
+/**daytime end**/
+/**gallary start**/
+#gallary {
+    background: url("./imges/offer-background\ \(1\).jpg") center center/cover no-repeat ;
+    padding: 8rem 0 6rem;
+}
+
+
+#gallary h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+#gallary .img-gallary img{
+
+    width: 280px;
+    height: 200px;
+    border-radius: 15px;
+    margin: 20px;
+    opacity: 0.8;
+}
+
+
+#gallary .img-gallary img:hover{
+    opacity: 1;
+}
+
+
+#gallary .img-gallary {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+#contact .container{
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+
+#contact {
+    padding: 5rem 0 ;
+    background: #f4f4f4;
+}
+
+
+#contact .container {
+    max-width: 900px;
+
+
+}
+
+#contact .contact-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#contact .contact-content .contact-info{
+   width: 50%;
+}
+
+
+#contact .contact-content .contact-info div{
+    margin: 30px 0;
+    line-height: 1.7;
+}
+
+#contact .contact-content .contact-info h3{
+    font-size: 28px;
+    color: #383848;
+    margin-bottom: 10px;
+}
+
+#contact .contact-content .contact-info i{
+    color: #e3cd5e;
+    margin-right: 5px;
+    
+
+}
+#contact .contact-content .contact-info p{
+    color: #647687;
+}
+
+#contact .contact-content .contact-info a i{
+
+
+    color: #fff;
+    background-color: #383848;
+    padding: 15px;
+    border-radius: 50%;
+    font-size: 40px;
+
+}
+
+#contact .contact-content .contact-info a i:hover{
+    background: #e3cd5e;
+    color: #383848;
+}
+
+
+form{
+    width: 50%;
+    position: relative;
+    left: 540px;
+    bottom: 540px;
+
+}
+
+form input ,
+textarea{
+    display: block;
+    width: 100%;
+    padding:20px 15px ;
+    margin: 20px 0;
+    border: none;
+    background-color: #e8ecb0;
+}
+
+
+#contact .btn{
+    background: #e3cd5e;
+    color: #fff;
+    width: 200px;
+}
+
+#contact .btn:hover{
+    background-color: #383848;
+}
+
+footer{
+    background-color: #5b5b78;
+    color: #f4f4f4;
+    font-size: larger;
+    position: relative;
+    bottom: 15px;
+    padding: 5px;
+    border-radius: 300;
+}
+/**gallary end**/
